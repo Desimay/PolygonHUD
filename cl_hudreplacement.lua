@@ -72,7 +72,7 @@ local function Avatar()
 	Avatar:SetPos(ScrW() * 0.016, ScrH() * 0.840)
 	Avatar:SetPlayer(LocalPlayer(), 64)
 end
-timer.Simple(0.1, function()
+timer.Simple(17, function()
 	Avatar()
 end)
 
